@@ -1,0 +1,1533 @@
+fileFormatVersion: 2
+guid: be3cc351dd1cb7f4d9e76aa815e0cfdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3571209557608420825
+    second: pngkit_spaceship-sprite-png_3370350_0
+  - first:
+      213: -4490001018107523171
+    second: pngkit_spaceship-sprite-png_3370350_1
+  - first:
+      213: 9151449132152344097
+    second: pngkit_spaceship-sprite-png_3370350_2
+  - first:
+      213: -3490385132298798019
+    second: pngkit_spaceship-sprite-png_3370350_3
+  - first:
+      213: -7758465374587186371
+    second: pngkit_spaceship-sprite-png_3370350_4
+  - first:
+      213: -4547957754516330031
+    second: pngkit_spaceship-sprite-png_3370350_5
+  - first:
+      213: -6449626983593651836
+    second: pngkit_spaceship-sprite-png_3370350_6
+  - first:
+      213: -478182183583360345
+    second: pngkit_spaceship-sprite-png_3370350_7
+  - first:
+      213: 3170851820917577446
+    second: pngkit_spaceship-sprite-png_3370350_8
+  - first:
+      213: -355907433163893224
+    second: pngkit_spaceship-sprite-png_3370350_9
+  - first:
+      213: -8148761450044150388
+    second: pngkit_spaceship-sprite-png_3370350_10
+  - first:
+      213: 6618069781617242541
+    second: pngkit_spaceship-sprite-png_3370350_11
+  - first:
+      213: 5993826339721150624
+    second: pngkit_spaceship-sprite-png_3370350_12
+  - first:
+      213: 9165427991756420316
+    second: pngkit_spaceship-sprite-png_3370350_13
+  - first:
+      213: 1750772649400310729
+    second: pngkit_spaceship-sprite-png_3370350_14
+  - first:
+      213: -1974073771083251318
+    second: pngkit_spaceship-sprite-png_3370350_15
+  - first:
+      213: -6478558806629466994
+    second: pngkit_spaceship-sprite-png_3370350_16
+  - first:
+      213: 8009874698288562192
+    second: pngkit_spaceship-sprite-png_3370350_17
+  - first:
+      213: -6212423860627597716
+    second: pngkit_spaceship-sprite-png_3370350_18
+  - first:
+      213: -7383530694452719057
+    second: pngkit_spaceship-sprite-png_3370350_19
+  - first:
+      213: -1439372149900247986
+    second: pngkit_spaceship-sprite-png_3370350_20
+  - first:
+      213: -7405175097273993155
+    second: pngkit_spaceship-sprite-png_3370350_21
+  - first:
+      213: -8341668224957988068
+    second: pngkit_spaceship-sprite-png_3370350_22
+  - first:
+      213: 674640930530941265
+    second: pngkit_spaceship-sprite-png_3370350_23
+  - first:
+      213: -7276735327891403086
+    second: pngkit_spaceship-sprite-png_3370350_24
+  - first:
+      213: -4018652604109255730
+    second: pngkit_spaceship-sprite-png_3370350_25
+  - first:
+      213: 7902411843802832098
+    second: pngkit_spaceship-sprite-png_3370350_26
+  - first:
+      213: -5633177587360731489
+    second: pngkit_spaceship-sprite-png_3370350_27
+  - first:
+      213: 2170060448122735540
+    second: pngkit_spaceship-sprite-png_3370350_28
+  - first:
+      213: -2233101350226948990
+    second: pngkit_spaceship-sprite-png_3370350_29
+  - first:
+      213: 9183178752515638704
+    second: pngkit_spaceship-sprite-png_3370350_30
+  - first:
+      213: 5409245338318938871
+    second: pngkit_spaceship-sprite-png_3370350_31
+  - first:
+      213: -6061179511261290417
+    second: pngkit_spaceship-sprite-png_3370350_32
+  - first:
+      213: 6628837813793531046
+    second: pngkit_spaceship-sprite-png_3370350_33
+  - first:
+      213: -8211490993111820592
+    second: pngkit_spaceship-sprite-png_3370350_34
+  - first:
+      213: 3397725344029474529
+    second: pngkit_spaceship-sprite-png_3370350_35
+  - first:
+      213: 1787617622191897335
+    second: pngkit_spaceship-sprite-png_3370350_36
+  - first:
+      213: 6773088619892810778
+    second: pngkit_spaceship-sprite-png_3370350_37
+  - first:
+      213: -8752778042756870072
+    second: pngkit_spaceship-sprite-png_3370350_38
+  - first:
+      213: 3769792890214547996
+    second: pngkit_spaceship-sprite-png_3370350_39
+  - first:
+      213: 3586552817669655155
+    second: pngkit_spaceship-sprite-png_3370350_40
+  - first:
+      213: -3687119055657278162
+    second: pngkit_spaceship-sprite-png_3370350_41
+  - first:
+      213: 7871041866234725169
+    second: pngkit_spaceship-sprite-png_3370350_42
+  - first:
+      213: -6121196549914592245
+    second: pngkit_spaceship-sprite-png_3370350_43
+  - first:
+      213: -1335293837003933825
+    second: pngkit_spaceship-sprite-png_3370350_44
+  - first:
+      213: 22514620789260204
+    second: pngkit_spaceship-sprite-png_3370350_45
+  - first:
+      213: -148925459698820816
+    second: pngkit_spaceship-sprite-png_3370350_46
+  - first:
+      213: -1932983643792434400
+    second: pngkit_spaceship-sprite-png_3370350_47
+  - first:
+      213: -4054189299941610079
+    second: pngkit_spaceship-sprite-png_3370350_48
+  - first:
+      213: 8007697493261804937
+    second: pngkit_spaceship-sprite-png_3370350_49
+  - first:
+      213: -2539591344699738529
+    second: pngkit_spaceship-sprite-png_3370350_50
+  - first:
+      213: 5726704960362773205
+    second: pngkit_spaceship-sprite-png_3370350_51
+  - first:
+      213: 3754516844595961079
+    second: pngkit_spaceship-sprite-png_3370350_52
+  - first:
+      213: -4529362831584893773
+    second: pngkit_spaceship-sprite-png_3370350_53
+  - first:
+      213: -8677472191875753571
+    second: pngkit_spaceship-sprite-png_3370350_54
+  - first:
+      213: -7714671911244700725
+    second: pngkit_spaceship-sprite-png_3370350_55
+  - first:
+      213: 6354691744803490479
+    second: pngkit_spaceship-sprite-png_3370350_56
+  - first:
+      213: 7076305196910969494
+    second: pngkit_spaceship-sprite-png_3370350_57
+  - first:
+      213: 24102488225041437
+    second: pngkit_spaceship-sprite-png_3370350_58
+  - first:
+      213: -769631338487534624
+    second: pngkit_spaceship-sprite-png_3370350_59
+  - first:
+      213: -7436807339131134966
+    second: pngkit_spaceship-sprite-png_3370350_60
+  - first:
+      213: -1158397088186352952
+    second: pngkit_spaceship-sprite-png_3370350_61
+  - first:
+      213: 471389469904804681
+    second: pngkit_spaceship-sprite-png_3370350_62
+  - first:
+      213: -3687823966790813179
+    second: pngkit_spaceship-sprite-png_3370350_63
+  - first:
+      213: -557194209476814624
+    second: pngkit_spaceship-sprite-png_3370350_64
+  - first:
+      213: -2078399417864055560
+    second: pngkit_spaceship-sprite-png_3370350_65
+  - first:
+      213: 5601083520391638876
+    second: pngkit_spaceship-sprite-png_3370350_66
+  - first:
+      213: 2533118326924006138
+    second: pngkit_spaceship-sprite-png_3370350_67
+  - first:
+      213: -2239911911434967321
+    second: pngkit_spaceship-sprite-png_3370350_68
+  - first:
+      213: 1446993375309921078
+    second: pngkit_spaceship-sprite-png_3370350_69
+  - first:
+      213: -4941254068259751391
+    second: pngkit_spaceship-sprite-png_3370350_70
+  - first:
+      213: -7292924216106571776
+    second: pngkit_spaceship-sprite-png_3370350_71
+  - first:
+      213: 1778322120496275700
+    second: pngkit_spaceship-sprite-png_3370350_72
+  - first:
+      213: -8933508891008911145
+    second: pngkit_spaceship-sprite-png_3370350_73
+  - first:
+      213: 3716065365702379165
+    second: pngkit_spaceship-sprite-png_3370350_74
+  - first:
+      213: 5405851879812489067
+    second: pngkit_spaceship-sprite-png_3370350_75
+  - first:
+      213: -6112654662760622914
+    second: pngkit_spaceship-sprite-png_3370350_76
+  - first:
+      213: -6964326825323881337
+    second: pngkit_spaceship-sprite-png_3370350_77
+  - first:
+      213: 29094621567536955
+    second: pngkit_spaceship-sprite-png_3370350_78
+  - first:
+      213: -224925479609297062
+    second: pngkit_spaceship-sprite-png_3370350_79
+  - first:
+      213: -4911114873162105847
+    second: pngkit_spaceship-sprite-png_3370350_80
+  - first:
+      213: -6388401328781195632
+    second: pngkit_spaceship-sprite-png_3370350_81
+  - first:
+      213: -2111396719018859968
+    second: pngkit_spaceship-sprite-png_3370350_82
+  - first:
+      213: 6014384950466981628
+    second: pngkit_spaceship-sprite-png_3370350_83
+  - first:
+      213: 7833243186454438123
+    second: pngkit_spaceship-sprite-png_3370350_84
+  - first:
+      213: -4386134441257498307
+    second: pngkit_spaceship-sprite-png_3370350_85
+  - first:
+      213: 6111187714764078526
+    second: pngkit_spaceship-sprite-png_3370350_86
+  - first:
+      213: -1305752446052652595
+    second: pngkit_spaceship-sprite-png_3370350_87
+  - first:
+      213: 5004077727688298599
+    second: pngkit_spaceship-sprite-png_3370350_88
+  - first:
+      213: -1851304031592141211
+    second: pngkit_spaceship-sprite-png_3370350_89
+  - first:
+      213: -5139529533173038804
+    second: pngkit_spaceship-sprite-png_3370350_90
+  - first:
+      213: 5322123207295418482
+    second: pngkit_spaceship-sprite-png_3370350_91
+  - first:
+      213: -2200112011019173073
+    second: pngkit_spaceship-sprite-png_3370350_92
+  - first:
+      213: 6611740621012768748
+    second: pngkit_spaceship-sprite-png_3370350_93
+  - first:
+      213: 3934350033634316347
+    second: pngkit_spaceship-sprite-png_3370350_94
+  - first:
+      213: -1913571733810029408
+    second: pngkit_spaceship-sprite-png_3370350_95
+  - first:
+      213: -6966415036082862567
+    second: pngkit_spaceship-sprite-png_3370350_96
+  - first:
+      213: -7291643394126944728
+    second: pngkit_spaceship-sprite-png_3370350_97
+  - first:
+      213: 6188679534470827687
+    second: pngkit_spaceship-sprite-png_3370350_98
+  - first:
+      213: -2044537564775436711
+    second: pngkit_spaceship-sprite-png_3370350_99
+  - first:
+      213: -2096081799193489220
+    second: pngkit_spaceship-sprite-png_3370350_100
+  - first:
+      213: 7811956269986007507
+    second: pngkit_spaceship-sprite-png_3370350_101
+  - first:
+      213: -6538230782442226612
+    second: pngkit_spaceship-sprite-png_3370350_102
+  - first:
+      213: -8176175036981676569
+    second: pngkit_spaceship-sprite-png_3370350_103
+  - first:
+      213: -8868017110327218428
+    second: pngkit_spaceship-sprite-png_3370350_104
+  - first:
+      213: -5240433597210871286
+    second: pngkit_spaceship-sprite-png_3370350_105
+  - first:
+      213: 7587858665972767279
+    second: pngkit_spaceship-sprite-png_3370350_106
+  - first:
+      213: 9145146370900441896
+    second: pngkit_spaceship-sprite-png_3370350_107
+  - first:
+      213: 1533945003127827036
+    second: pngkit_spaceship-sprite-png_3370350_108
+  - first:
+      213: 5180199213966528974
+    second: pngkit_spaceship-sprite-png_3370350_109
+  - first:
+      213: 6412826628519359778
+    second: pngkit_spaceship-sprite-png_3370350_110
+  - first:
+      213: -2261734897122258237
+    second: pngkit_spaceship-sprite-png_3370350_111
+  - first:
+      213: -6201774434728595161
+    second: pngkit_spaceship-sprite-png_3370350_112
+  - first:
+      213: 3937417784808631017
+    second: pngkit_spaceship-sprite-png_3370350_113
+  - first:
+      213: -5275324981129125990
+    second: pngkit_spaceship-sprite-png_3370350_114
+  - first:
+      213: -141256641439917721
+    second: pngkit_spaceship-sprite-png_3370350_115
+  - first:
+      213: 4226639305151755841
+    second: pngkit_spaceship-sprite-png_3370350_116
+  - first:
+      213: -7474246900716211672
+    second: pngkit_spaceship-sprite-png_3370350_117
+  - first:
+      213: 7460077515665492492
+    second: pngkit_spaceship-sprite-png_3370350_118
+  - first:
+      213: 3531934392149701051
+    second: pngkit_spaceship-sprite-png_3370350_119
+  - first:
+      213: 5768847313481012713
+    second: pngkit_spaceship-sprite-png_3370350_120
+  - first:
+      213: -4832390228229389210
+    second: pngkit_spaceship-sprite-png_3370350_121
+  - first:
+      213: 722949282640776077
+    second: pngkit_spaceship-sprite-png_3370350_122
+  - first:
+      213: -4196027297627818960
+    second: pngkit_spaceship-sprite-png_3370350_123
+  - first:
+      213: 4656283850883804243
+    second: pngkit_spaceship-sprite-png_3370350_124
+  - first:
+      213: -94662361427337633
+    second: pngkit_spaceship-sprite-png_3370350_125
+  - first:
+      213: 8565659825044548553
+    second: pngkit_spaceship-sprite-png_3370350_126
+  - first:
+      213: -4733288994164195588
+    second: pngkit_spaceship-sprite-png_3370350_127
+  - first:
+      213: 1863892133839360087
+    second: pngkit_spaceship-sprite-png_3370350_128
+  - first:
+      213: -3367055892040329374
+    second: pngkit_spaceship-sprite-png_3370350_129
+  - first:
+      213: -1670388627818985250
+    second: pngkit_spaceship-sprite-png_3370350_130
+  - first:
+      213: 1396233734132613805
+    second: pngkit_spaceship-sprite-png_3370350_131
+  - first:
+      213: -2719539344239672792
+    second: pngkit_spaceship-sprite-png_3370350_132
+  - first:
+      213: -6582534245576091006
+    second: pngkit_spaceship-sprite-png_3370350_133
+  - first:
+      213: -1387147570760497788
+    second: pngkit_spaceship-sprite-png_3370350_134
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 564
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5dabbeb2c7f8130800000000000000
+      internalID: 3571209557608420825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f0f82fcdf40b1c0800000000000000
+      internalID: -4490001018107523171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e4ffdcf7a700f70800000000000000
+      internalID: 9151449132152344097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 528
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c760c0739af8fc0800000000000000
+      internalID: -3490385132298798019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 516
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1fa00076b18db50800000000000000
+      internalID: 6618069781617242541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a08570ac495e2350800000000000000
+      internalID: 5993826339721150624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4301fa234223f70800000000000000
+      internalID: 9165427991756420316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 480
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb99f9d27efb4810800000000000000
+      internalID: 1750772649400310729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 468
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13473902f07c3c80800000000000000
+      internalID: -8341668224957988068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1595c371a5ecc5900800000000000000
+      internalID: 674640930530941265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be4f78e5c7d30b90800000000000000
+      internalID: -7276735327891403086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 432
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb8e509fb0ea38c0800000000000000
+      internalID: -4018652604109255730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 420
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a427dcdedc5efb50800000000000000
+      internalID: 6628837813793531046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d61047b27cea0e80800000000000000
+      internalID: -8211490993111820592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 400
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eef73fc235272f20800000000000000
+      internalID: 3397725344029474529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 384
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faf9f491c4eec810800000000000000
+      internalID: 1787617622191897335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 372
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77bc967455187de0800000000000000
+      internalID: -1335293837003933825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf7566adecff4000800000000000000
+      internalID: 22514620789260204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039d3ac5519eeedf0800000000000000
+      internalID: -148925459698820816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_47
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 336
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b9c1b0e99ac25e0800000000000000
+      internalID: -1932983643792434400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_55
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 324
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3639355caffe490800000000000000
+      internalID: -7714671911244700725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa8e1a2976603850800000000000000
+      internalID: 6354691744803490479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6920120b516143260800000000000000
+      internalID: 7076305196910969494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_58
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c4bd8d511a55000800000000000000
+      internalID: 24102488225041437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_66
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 276
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fec3639cb0bbd40800000000000000
+      internalID: 5601083520391638876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_67
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2565282b1772320800000000000000
+      internalID: 2533118326924006138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6a0ceebfb3ae0e0800000000000000
+      internalID: -2239911911434967321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_69
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bf0bfeec0c41410800000000000000
+      internalID: 1446993375309921078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_77
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 228
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c98d4a6adb95f90800000000000000
+      internalID: -6964326825323881337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f4867776d576000800000000000000
+      internalID: 29094621567536955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_79
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5714fec777e0ecf0800000000000000
+      internalID: -224925479609297062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_80
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cf8060b0738dbb0800000000000000
+      internalID: -4911114873162105847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_88
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7601e4b3e2e027540800000000000000
+      internalID: 5004077727688298599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ea3b9bac8de46e0800000000000000
+      internalID: -1851304031592141211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c218796be19bca8b0800000000000000
+      internalID: -5139529533173038804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_91
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270c4b5fbdafbd940800000000000000
+      internalID: 5322123207295418482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_99
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e2e91dae750a3e0800000000000000
+      internalID: -2044537564775436711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_100
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb019ea85b839e2e0800000000000000
+      internalID: -2096081799193489220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9c66986d4a96c60800000000000000
+      internalID: 7811956269986007507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_110
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225ff0f87dfeef850800000000000000
+      internalID: 6412826628519359778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_111
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c25ce02814bc90e0800000000000000
+      internalID: -2261734897122258237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_112
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72137e0920fdee9a0800000000000000
+      internalID: -6201774434728595161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_121
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6648156c0b6efecb0800000000000000
+      internalID: -4832390228229389210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_122
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b4d6eca8e680a00800000000000000
+      internalID: 722949282640776077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0343d018767b4c5c0800000000000000
+      internalID: -4196027297627818960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_132
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 96
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82245e90061424ad0800000000000000
+      internalID: -2719539344239672792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_133
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ad79abaf326a4a0800000000000000
+      internalID: -6582534245576091006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_spaceship-sprite-png_3370350_134
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48546c142acdfbce0800000000000000
+      internalID: -1387147570760497788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
