@@ -21,6 +21,10 @@ public class OnStartup : MonoBehaviour
             var bulletPlaceHolderGameObject = new GameObject();
             bulletPlaceHolderGameObject.name = "---- BULLETS ----";
             bulletPlaceHolderGameObject.transform.parent = spawnedPrefabsGameObject.transform;
+            
+            var asteroidPlaceHolderGameObject = new GameObject();
+            asteroidPlaceHolderGameObject.name = "---- ASTEROID ----";
+            asteroidPlaceHolderGameObject.transform.parent = spawnedPrefabsGameObject.transform;
 
         #endregion
         
