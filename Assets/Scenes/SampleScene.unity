@@ -781,7 +781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc3897ac9f7be744a8866f3e676aa43d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 4
+  spawnRate: 7
   spawnAmount: 2
 --- !u!114 &1510092587
 MonoBehaviour:
@@ -882,7 +882,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0.5
-  m_AngularDrag: 0.75
+  m_AngularDrag: 0.6
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
