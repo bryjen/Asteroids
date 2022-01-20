@@ -52,7 +52,6 @@ public class Movement : MonoBehaviour
             .Play("explode");
         explosion
             .transform.localScale = new Vector3(5, 5, 1);
-        
         Destroy(explosion, 1);
         
         transform.position = Vector3.zero;

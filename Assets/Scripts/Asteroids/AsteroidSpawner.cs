@@ -29,14 +29,12 @@ public class AsteroidSpawner : MonoBehaviour
         var asteroid = Instantiate(asteroidPrefab, spawnpoint, rotation);
         asteroid.transform.parent = placeholderGameObject.transform;
 
-        
         if (!asteroid.TryGetComponent<Asteroid>(out Asteroid asteroidScript))
             Debug.LogError("ASTEROID PREFAB DOES NOT HAVE Asteroid.cs SCRIPT!");  
         
         //initialize the asteroid's size, direction and velocity
         var variance = Random.Range(-15, 15);
         Quaternion directionRotation = Quaternion.AngleAxis(variance, Vector3.forward);
-        asteroidScript.Initialize( (directionRotation * -spawnRadius).normalized * Random.Range(1.5f, 2f)); 
-        asteroidScript.AdjustSize();
+        asteroidScript.Initialize( (directionRotation * -spawnRadius).normalized * Random.Range(1.5f, 2f));
     }
 }

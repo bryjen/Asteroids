@@ -4,13 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-/**
- * <remarks>
- * Large Range: 10 - 16
- * Medium Range: 5 - 8
- * Small Range: 2 - 5
- * </remarks>
- */
 public class Asteroid : MonoBehaviour
 {
     protected const float DEFAULT_SIZE = 13f;
@@ -19,21 +12,46 @@ public class Asteroid : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private float size;
     
-    //Asteroid Size Ranges
     private Range<float> largeAsteroidRange;
     private Range<float> mediumAsteroidRange;
     private Range<float> smallAsteroidRange;
+    
+    private GameObject largeAsteroid;
+    private GameObject mediumAsteroid;
+    private GameObject smallAsteroid;
 
-    [Header("Asteroid Size Variants")] 
-    [SerializeField] private GameObject largeAsteroid;
-    [SerializeField] private GameObject mediumAsteroid;
-    [SerializeField] private GameObject smallAsteroid;
+    private float largeAsteroidBaseSize;
+    private float mediumAsteroidBaseSize;
+    private float smallAsteroidBaseSize;
+
+    private GameObject explosionPrefab;
+    
+
+    [SerializeField] private AsteroidData asteroidData;
+
+    /** <summary>Takes Data from the AsteroidData.cs script attached to a data placeholder</summary>
+     */
+    private void SetAsteroidData()
+    {
+        largeAsteroidRange = asteroidData.GetLargeRange();
+        mediumAsteroidRange = asteroidData.GetMediumRange();
+        smallAsteroidRange = asteroidData.GetSmallRange();
+
+        largeAsteroid = asteroidData.largeAsteroid;
+        mediumAsteroid = asteroidData.mediumAsteroid;
+        smallAsteroid = asteroidData.smallAsteroid;
+
+        largeAsteroidBaseSize = asteroidData.largeAsteroidBaseSize;
+        mediumAsteroidBaseSize = asteroidData.mediumAsteroidBaseSize;
+        smallAsteroidBaseSize = asteroidData.smallAsteroidBaseSize;
+
+        explosionPrefab = asteroidData.explosionPrefab;
+    }
     
     /** <summary>Sets an asteroid's direction and speed, with a random size</summary>
      */
     public void Initialize(Vector2 impulseForce)
     {
-        SetAsteroidSizeData();
         Initialize(Random.Range(largeAsteroidRange.lowerBound, largeAsteroidRange.upperBound), impulseForce);
     }
     
@@ -50,19 +68,30 @@ public class Asteroid : MonoBehaviour
             _rigidbody2D.AddForce(impulseForce, ForceMode2D.Impulse);
         else
             Debug.LogError("ASTEROID PREFAB DOES NOT HAVE A RigidBody2D COMPONENT");
+
+        _rigidbody2D.angularVelocity = Random.Range(-50, 50);
+
+        AdjustSize();
     }
 
     public void AdjustSize()
-    {   //TODO USE ONLY ON LARGE ASTEROIDS BUGGY ON SMALLER ONES
-        var localScaleMultiplier = this.size / DEFAULT_SIZE;
-        transform.localScale = transform.localScale * localScaleMultiplier;
-    }
-    
-    protected virtual void SetAsteroidSizeData()
     {
-        largeAsteroidRange = new Range<float>(10, 16);
-        mediumAsteroidRange = new Range<float>(5, 9);
-        smallAsteroidRange = new Range<float>(2, 5);
+        float localScaleMultiplier;
+        
+        switch (GetCurrentSizeRange())
+        {
+            case "large" :
+                localScaleMultiplier = (size / largeAsteroidBaseSize);
+                break;
+            case "medium":
+                localScaleMultiplier = size / mediumAsteroidBaseSize;
+                break;
+            default:    //small
+                localScaleMultiplier = size / smallAsteroidBaseSize;
+                break;
+        }
+        
+        transform.localScale *= localScaleMultiplier;
     }
 
     private String GetCurrentSizeRange()
@@ -100,6 +129,7 @@ public class Asteroid : MonoBehaviour
                 else
                     asteroidCount = 2;
                 
+                size = smallAsteroidRange.upperBound;
                 SpawnAsteroids(smallAsteroid, asteroidCount, new Range<float>(.5f, 0.7f));
                 break;
             }
@@ -112,36 +142,37 @@ public class Asteroid : MonoBehaviour
     {
         for (int i = 0; i < asteroidCount; i++)
         {
-            var newAsteroid = Instantiate(asteroidPrefab, transform.position, Quaternion.identity);
+            var newAsteroid = Instantiate(asteroidPrefab,
+                transform.position,
+                Quaternion.identity);
             
             if (!newAsteroid.TryGetComponent<Rigidbody2D>(out Rigidbody2D newAsteroidRigidbody2D))
                 Debug.LogError($"Asteroid prefab \"{asteroidPrefab.name}\" does not contain a RigidBody2D component");
-            newAsteroidRigidbody2D.angularVelocity = Random.Range(-10f, 10f);
             newAsteroid.transform.parent = transform.parent;
             
             if (!newAsteroid.TryGetComponent<Asteroid>(out Asteroid asteroidScript))
                 Debug.LogError($"Asteroid prefab \"{asteroidPrefab.name}\" does not contain an Asteroid.cs component");
             
-            asteroidScript.Initialize(size / 2, 
-                Random.insideUnitCircle.normalized * _rigidbody2D.velocity * 
+            asteroidScript.Initialize((size / 2) + Random.Range(-1f, 2f), 
+                Random.insideUnitCircle.normalized * 
                 Random.Range(speedMultiplierRange.lowerBound, speedMultiplierRange.upperBound));
         }
     }
 
-    void Start()
+    void Awake()
     {
         Destroy(this.gameObject, ASTEROID_LIFESPAN);
-        SetAsteroidSizeData();
+        SetAsteroidData();
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.layer != 8)
             return;
-        
-        Split(GetCurrentSizeRange());
+        Destroy(other.gameObject);  //destroy the bullet
 
-        Destroy(other.gameObject);
+        Split(GetCurrentSizeRange());
+        
         Destroy(this.gameObject);
     }
 }

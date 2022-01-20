@@ -144,6 +144,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d19120248e441584996cd6ae10151190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  largeAsteroid: {fileID: 2324798203725988018, guid: b4f6ffb77662d4947947f20b3878af81, type: 3}
-  mediumAsteroid: {fileID: 450614109868110433}
-  smallAsteroid: {fileID: 8706355125917907283, guid: 17d2bd21e06a4674fa1216f843148ad2, type: 3}
+  asteroidData: {fileID: 8497646853579380297, guid: c99835ea08915f04b81131d19171ecaf, type: 3}

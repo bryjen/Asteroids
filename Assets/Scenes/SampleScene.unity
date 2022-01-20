@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 7
-  spawnAmount: 2
+  spawnAmount: 1
 --- !u!114 &1510092587
 MonoBehaviour:
   m_ObjectHideFlags: 0
