@@ -1,178 +1,91 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Asteroid : MonoBehaviour
 {
-    protected const float DEFAULT_SIZE = 13f;
-    protected const float ASTEROID_LIFESPAN = 20f;
+    [SerializeField] protected Sprite[] asteroidSprites;
+
+    private const float BASE_SIZE = 8f;
+    private const float MIN_SIZE = 3f;
     
     private Rigidbody2D _rigidbody2D;
-    private float size;
-    
-    private Range<float> largeAsteroidRange;
-    private Range<float> mediumAsteroidRange;
-    private Range<float> smallAsteroidRange;
-    
-    private GameObject largeAsteroid;
-    private GameObject mediumAsteroid;
-    private GameObject smallAsteroid;
+    public float size;
 
-    private float largeAsteroidBaseSize;
-    private float mediumAsteroidBaseSize;
-    private float smallAsteroidBaseSize;
 
-    private GameObject explosionPrefab;
-    
+    #region ASTEROID SPLITTING
 
-    [SerializeField] private AsteroidData asteroidData;
-
-    /** <summary>Takes Data from the AsteroidData.cs script attached to a data placeholder</summary>
-     */
-    private void SetAsteroidData()
-    {
-        largeAsteroidRange = asteroidData.GetLargeRange();
-        mediumAsteroidRange = asteroidData.GetMediumRange();
-        smallAsteroidRange = asteroidData.GetSmallRange();
-
-        largeAsteroid = asteroidData.largeAsteroid;
-        mediumAsteroid = asteroidData.mediumAsteroid;
-        smallAsteroid = asteroidData.smallAsteroid;
-
-        largeAsteroidBaseSize = asteroidData.largeAsteroidBaseSize;
-        mediumAsteroidBaseSize = asteroidData.mediumAsteroidBaseSize;
-        smallAsteroidBaseSize = asteroidData.smallAsteroidBaseSize;
-
-        explosionPrefab = asteroidData.explosionPrefab;
-    }
-    
-    /** <summary>Sets an asteroid's direction and speed, with a random size</summary>
-     */
-    public void Initialize(Vector2 impulseForce)
-    {
-        Initialize(Random.Range(largeAsteroidRange.lowerBound, largeAsteroidRange.upperBound), impulseForce);
-    }
-    
-    /** <summary>Sets the asteroid's size, direction and speed.</summary>
-     * <remarks>It is recomended to set the size in between the range defined in the previous Initialize method</remarks> */
-    public void Initialize(float? size, Vector2 impulseForce)
-    {
-        if (size is null)
-            this. size = DEFAULT_SIZE;
-        else
-            this.size = size.Value;
-
-        if (TryGetComponent<Rigidbody2D>(out _rigidbody2D))
-            _rigidbody2D.AddForce(impulseForce, ForceMode2D.Impulse);
-        else
-            Debug.LogError("ASTEROID PREFAB DOES NOT HAVE A RigidBody2D COMPONENT");
-
-        _rigidbody2D.angularVelocity = Random.Range(-50, 50);
-
-        AdjustSize();
-    }
-
-    public void AdjustSize()
-    {
-        float localScaleMultiplier;
-        
-        switch (GetCurrentSizeRange())
+        private void OnCollisionEnter2D(Collision2D other)
         {
-            case "large" :
-                localScaleMultiplier = (size / largeAsteroidBaseSize);
-                break;
-            case "medium":
-                localScaleMultiplier = size / mediumAsteroidBaseSize;
-                break;
-            default:    //small
-                localScaleMultiplier = size / smallAsteroidBaseSize;
-                break;
-        }
-        
-        transform.localScale *= localScaleMultiplier;
-    }
+            if (other.gameObject.layer != 8)    //8 being the layer of the bullet
+                return;
+            
+            Destroy(other.gameObject);
 
-    private String GetCurrentSizeRange()
-    {
-        if (size >= largeAsteroidRange.lowerBound)
-            return "large";
-        else if (size >= mediumAsteroidRange.lowerBound && size < mediumAsteroidRange.upperBound)
-            //i.e. if lowerBound <= size < upperBound
-            return "medium";
-        else
-            return "small";
-    }
-    
-    private void Split(String currentSizeRange)
-    {
-        int asteroidCount;
-
-        switch (currentSizeRange)
-        {
-            case "large" : 
+            if (size / 2 < MIN_SIZE)
             {
-                if (size / 3 > mediumAsteroidRange.lowerBound)
-                    asteroidCount = 3;
-                else
-                    asteroidCount = 2;
-                
-                SpawnAsteroids(mediumAsteroid, asteroidCount, new Range<float>(.5f, 0.7f));
-                break;
+                Destroy(gameObject);
+                return;
             }
-            case "medium":
-            {
                 
-                if (size / 3 > smallAsteroidRange.lowerBound)
-                    asteroidCount = 3;
-                else
-                    asteroidCount = 2;
-                
-                size = smallAsteroidRange.upperBound;
-                SpawnAsteroids(smallAsteroid, asteroidCount, new Range<float>(.5f, 0.7f));
-                break;
-            }
-            default:    //small
-                break;
+            
+            int numberOfSmallerAsteroids = 
+                (size / 3.5 > MIN_SIZE) ? 3 : 2;
+    
+            for (int i = 0; i < numberOfSmallerAsteroids; i++)
+                Split(size, 
+                    numberOfSmallerAsteroids == 3 ? 
+                        Random.Range(2.5f, 3.3f): Random.Range(1.5f, 2f));
+            
+            Destroy(gameObject);
         }
-    }
-
-    private void SpawnAsteroids(GameObject asteroidPrefab, int asteroidCount, Range<float> speedMultiplierRange)
-    {
-        for (int i = 0; i < asteroidCount; i++)
+    
+        private void Split(float size, float shrinkFactor)
         {
-            var newAsteroid = Instantiate(asteroidPrefab,
-                transform.position,
-                Quaternion.identity);
-            
-            if (!newAsteroid.TryGetComponent<Rigidbody2D>(out Rigidbody2D newAsteroidRigidbody2D))
-                Debug.LogError($"Asteroid prefab \"{asteroidPrefab.name}\" does not contain a RigidBody2D component");
-            newAsteroid.transform.parent = transform.parent;
-            
-            if (!newAsteroid.TryGetComponent<Asteroid>(out Asteroid asteroidScript))
-                Debug.LogError($"Asteroid prefab \"{asteroidPrefab.name}\" does not contain an Asteroid.cs component");
-            
-            asteroidScript.Initialize((size / 2) + Random.Range(-1f, 2f), 
-                Random.insideUnitCircle.normalized * 
-                Random.Range(speedMultiplierRange.lowerBound, speedMultiplierRange.upperBound));
+            var asteroid = Instantiate(gameObject, transform.position, quaternion.identity);
+            asteroid.transform.parent = transform.parent;
+    
+            asteroid.GetComponent<Asteroid>().Initialize(size / shrinkFactor, 
+                Random.insideUnitCircle.normalized * Random.Range(1f, 2f));
         }
-    }
 
-    void Awake()
-    {
-        Destroy(this.gameObject, ASTEROID_LIFESPAN);
-        SetAsteroidData();
-    }
+    #endregion
 
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.layer != 8)
-            return;
-        Destroy(other.gameObject);  //destroy the bullet
+    #region INITIALIZATION
+    
+        //RANDOM SIZE
+        public void Initialize(Vector2 impulseForce)
+        {
+            //generates random asteroid size
+            Initialize(Random.Range(8f, 12f),
+                impulseForce);
+        }
 
-        Split(GetCurrentSizeRange());
+        public void Initialize(float size, Vector2 impulseForce)
+        {
+            this.size = size;
+    
+            if (TryGetComponent<Rigidbody2D>(out _rigidbody2D))
+                _rigidbody2D.AddForce(impulseForce, ForceMode2D.Impulse);
+            else
+                Debug.LogError("ASTEROID PREFAB DOES NOT HAVE A RigidBody2D COMPONENT");
+    
+            SetRandomSprite();
+            AdjustSize();
+            
+            _rigidbody2D.angularVelocity = Random.Range(-55, 55);
+        }
+    
         
-        Destroy(this.gameObject);
-    }
+
+    #endregion
+
+    private void AdjustSize()
+        => transform.localScale *= size / BASE_SIZE;
+
+    private void SetRandomSprite() =>
+        GetComponent<SpriteRenderer>().sprite = asteroidSprites[Random.Range(0, asteroidSprites.Length - 1)];
 }

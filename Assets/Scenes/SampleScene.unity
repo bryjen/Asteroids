@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 3
-  spawnAmount: 3
+  spawnAmount: 1
 --- !u!114 &1510092587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a6f62332f79cdc4a95727d3c36ad779, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidPrefab: {fileID: 2324798203725988018, guid: b4f6ffb77662d4947947f20b3878af81, type: 3}
+  asteroidPrefab: {fileID: 7393384370442165724, guid: 17a23208a041a6e49918780dc6fed7a1, type: 3}
 --- !u!1 &1694975109
 GameObject:
   m_ObjectHideFlags: 0

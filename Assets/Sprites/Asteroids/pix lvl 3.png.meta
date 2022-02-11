@@ -1,0 +1,1656 @@
+fileFormatVersion: 2
+guid: 98e722aaac7c92249965c20fd560ddf4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6216582899653305712
+    second: pix lvl 3_0
+  - first:
+      213: 3645980210450984854
+    second: pix lvl 3_1
+  - first:
+      213: -6955835372039773907
+    second: pix lvl 3_2
+  - first:
+      213: -8777136694136576495
+    second: pix lvl 3_3
+  - first:
+      213: 7289491385601379603
+    second: pix lvl 3_4
+  - first:
+      213: 6735124306937895184
+    second: pix lvl 3_5
+  - first:
+      213: 8296198547537969516
+    second: pix lvl 3_6
+  - first:
+      213: 6046901977981881350
+    second: pix lvl 3_7
+  - first:
+      213: 1957408182632343698
+    second: pix lvl 3_8
+  - first:
+      213: 2855585681677408165
+    second: pix lvl 3_9
+  - first:
+      213: -5436860170586220262
+    second: pix lvl 3_10
+  - first:
+      213: -3065428955320867296
+    second: pix lvl 3_11
+  - first:
+      213: -8448738672956199727
+    second: pix lvl 3_12
+  - first:
+      213: -1288496558742600412
+    second: pix lvl 3_13
+  - first:
+      213: 1582100658664474306
+    second: pix lvl 3_14
+  - first:
+      213: 8357285104768244910
+    second: pix lvl 3_15
+  - first:
+      213: -2028432731685157835
+    second: pix lvl 3_16
+  - first:
+      213: 5797424089067697047
+    second: pix lvl 3_17
+  - first:
+      213: -9177589771902763243
+    second: pix lvl 3_18
+  - first:
+      213: 644901198556211448
+    second: pix lvl 3_19
+  - first:
+      213: -2988971850611489812
+    second: pix lvl 3_20
+  - first:
+      213: -3460472827828468845
+    second: pix lvl 3_21
+  - first:
+      213: 3144289936448201483
+    second: pix lvl 3_22
+  - first:
+      213: -2292101034599344813
+    second: pix lvl 3_23
+  - first:
+      213: -8871689300980479814
+    second: pix lvl 3_24
+  - first:
+      213: -8782408593201181508
+    second: pix lvl 3_25
+  - first:
+      213: 1546739886050374921
+    second: pix lvl 3_26
+  - first:
+      213: 1501993286714284963
+    second: pix lvl 3_27
+  - first:
+      213: 4856231175265951760
+    second: pix lvl 3_28
+  - first:
+      213: -7905560094821142523
+    second: pix lvl 3_29
+  - first:
+      213: -6214915501927844189
+    second: pix lvl 3_30
+  - first:
+      213: 3108755925329305004
+    second: pix lvl 3_31
+  - first:
+      213: -5423952551440645368
+    second: pix lvl 3_32
+  - first:
+      213: -3452729848532660353
+    second: pix lvl 3_33
+  - first:
+      213: 5396383218241953697
+    second: pix lvl 3_34
+  - first:
+      213: 4358717549113969731
+    second: pix lvl 3_35
+  - first:
+      213: 176811556030854756
+    second: pix lvl 3_36
+  - first:
+      213: -8126117923217395259
+    second: pix lvl 3_37
+  - first:
+      213: -7948416204220915480
+    second: pix lvl 3_38
+  - first:
+      213: -8195569453530574821
+    second: pix lvl 3_39
+  - first:
+      213: -2482447662702162164
+    second: pix lvl 3_40
+  - first:
+      213: 220949392727622426
+    second: pix lvl 3_41
+  - first:
+      213: -2826247150395694773
+    second: pix lvl 3_42
+  - first:
+      213: -5758926970809479000
+    second: pix lvl 3_43
+  - first:
+      213: -8257406765414764601
+    second: pix lvl 3_44
+  - first:
+      213: 6554849277385585616
+    second: pix lvl 3_45
+  - first:
+      213: 9110125242527613506
+    second: pix lvl 3_46
+  - first:
+      213: 4537615023277367424
+    second: pix lvl 3_47
+  - first:
+      213: -6783193028248880334
+    second: pix lvl 3_48
+  - first:
+      213: -7130206950065320033
+    second: pix lvl 3_49
+  - first:
+      213: -2396031067961577205
+    second: pix lvl 3_50
+  - first:
+      213: -2502302732957623412
+    second: pix lvl 3_51
+  - first:
+      213: 6650255066337945784
+    second: pix lvl 3_52
+  - first:
+      213: 8972859867255148968
+    second: pix lvl 3_53
+  - first:
+      213: -4386718418875016143
+    second: pix lvl 3_54
+  - first:
+      213: -7587179608223909519
+    second: pix lvl 3_55
+  - first:
+      213: 5721088694944488410
+    second: pix lvl 3_56
+  - first:
+      213: 7059325754155361088
+    second: pix lvl 3_57
+  - first:
+      213: 2638066114596728272
+    second: pix lvl 3_58
+  - first:
+      213: -4518209491438811516
+    second: pix lvl 3_59
+  - first:
+      213: -7212858175348588841
+    second: pix lvl 3_60
+  - first:
+      213: 99083303430588483
+    second: pix lvl 3_61
+  - first:
+      213: 2484820769308679280
+    second: pix lvl 3_62
+  - first:
+      213: -9101526068172984463
+    second: pix lvl 3_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pix lvl 3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a95652ac24ab9a0800000000000000
+      internalID: -6216582899653305712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 875
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fe8062faf199230800000000000000
+      internalID: 3645980210450984854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 875
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e87d2598e77f90800000000000000
+      internalID: -6955835372039773907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 875
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11661f01ea8513680800000000000000
+      internalID: -8777136694136576495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 875
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d4a083bc9792560800000000000000
+      internalID: 7289491385601379603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_5
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 875
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019d1297fd7f77d50800000000000000
+      internalID: 6735124306937895184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_6
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 875
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61cc14bf94022370800000000000000
+      internalID: 8296198547537969516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_7
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 875
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c8735af49eae350800000000000000
+      internalID: 6046901977981881350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2986e3e0f5c1a2b10800000000000000
+      internalID: 1957408182632343698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 750
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7d2164c0411a720800000000000000
+      internalID: 2855585681677408165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 750
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a191db60b746c84b0800000000000000
+      internalID: -5436860170586220262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 750
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02627e14b986575d0800000000000000
+      internalID: -3065428955320867296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 750
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc2756b0fc00ca80800000000000000
+      internalID: -8448738672956199727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_13
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 750
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42585d1e4375e1ee0800000000000000
+      internalID: -1288496558742600412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_14
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 750
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c68b9eaa20c4f510800000000000000
+      internalID: 1582100658664474306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_15
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 750
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacdf54268a0bf370800000000000000
+      internalID: 8357285104768244910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53481297d2f89d3e0800000000000000
+      internalID: -2028432731685157835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 625
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7933c213e76947050800000000000000
+      internalID: 5797424089067697047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_18
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 625
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f3a773ab6a2a080800000000000000
+      internalID: -9177589771902763243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 625
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8aa27293623f800800000000000000
+      internalID: 644901198556211448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_20
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 625
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce309a820f90586d0800000000000000
+      internalID: -2988971850611489812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_21
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 625
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39384662c4ee9ffc0800000000000000
+      internalID: -3460472827828468845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_22
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 625
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03a4dcb903c2ab20800000000000000
+      internalID: 3144289936448201483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_23
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 625
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355966bc042d030e0800000000000000
+      internalID: -2292101034599344813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8cc61c59d61e480800000000000000
+      internalID: -8871689300980479814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 500
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcc7e96aed9e1680800000000000000
+      internalID: -8782408593201181508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 500
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905f5fb3bbf177510800000000000000
+      internalID: 1546739886050374921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 500
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab50a5bfe628d410800000000000000
+      internalID: 1501993286714284963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_28
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 500
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010a7e4468cc46340800000000000000
+      internalID: 4856231175265951760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_29
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 500
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500beadaafec94290800000000000000
+      internalID: -7905560094821142523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_30
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 500
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6b58e674f20c9a0800000000000000
+      internalID: -6214915501927844189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 500
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadd4ae0b05842b20800000000000000
+      internalID: 3108755925329305004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8038ecc44ef3ab4b0800000000000000
+      internalID: -5423952551440645368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 375
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f82d00f707510d0800000000000000
+      internalID: -3452729848532660353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_34
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 375
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afd03b12fdc3ea40800000000000000
+      internalID: 5396383218241953697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_35
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 375
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c033774864d7c30800000000000000
+      internalID: 4358717549113969731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_36
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 375
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46637656c29247200800000000000000
+      internalID: 176811556030854756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_37
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 375
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c131b78dca3a3f80800000000000000
+      internalID: -8126117923217395259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_38
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 375
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e02474239d81b190800000000000000
+      internalID: -7948416204220915480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_39
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 375
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b109446010d734e80800000000000000
+      internalID: -8195569453530574821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f832bd0039c8dd0800000000000000
+      internalID: -2482447662702162164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_41
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 250
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a134ed25d48f01300800000000000000
+      internalID: 220949392727622426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 250
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b416439d03727c8d0800000000000000
+      internalID: -2826247150395694773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_43
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 250
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a01c71ae6e2410b0800000000000000
+      internalID: -5758926970809479000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_44
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 250
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfab85eb4cc76d80800000000000000
+      internalID: -8257406765414764601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_45
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 250
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d33bce40b087fa50800000000000000
+      internalID: 6554849277385585616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_46
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 250
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2428d2cf3aaad6e70800000000000000
+      internalID: 9110125242527613506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_47
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 250
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0806ce582d8d8fe30800000000000000
+      internalID: 4537615023277367424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bb15431e14dd1a0800000000000000
+      internalID: -6783193028248880334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_49
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 125
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fc55e6e8a6c0d90800000000000000
+      internalID: -7130206950065320033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_50
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 125
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01b95b30769fbed0800000000000000
+      internalID: -2396031067961577205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_51
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 125
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b52911ce8064dd0800000000000000
+      internalID: -2502302732957623412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_52
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 125
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8a0de8fb37a4c50800000000000000
+      internalID: 6650255066337945784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_53
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 125
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a11a1f4280068c70800000000000000
+      internalID: 8972859867255148968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_54
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 125
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c9a4107de3f13c0800000000000000
+      internalID: -4386718418875016143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_55
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 125
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179f9bc485ce4b690800000000000000
+      internalID: -7587179608223909519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb5bae3bd3656f40800000000000000
+      internalID: 5721088694944488410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_57
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043623a1f53c7f160800000000000000
+      internalID: 7059325754155361088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_58
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd6886772b4c9420800000000000000
+      internalID: 2638066114596728272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_59
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486cdf1f7681c41c0800000000000000
+      internalID: -4518209491438811516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_60
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de331374b7c6eb90800000000000000
+      internalID: -7212858175348588841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_61
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34807205db3006100800000000000000
+      internalID: 99083303430588483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_62
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 0
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c1825135bdb7220800000000000000
+      internalID: 2484820769308679280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pix lvl 3_63
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 124.625
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f67905342e0b180800000000000000
+      internalID: -9101526068172984463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
