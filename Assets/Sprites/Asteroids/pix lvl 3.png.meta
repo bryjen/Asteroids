@@ -298,10 +298,10 @@ TextureImporter:
       name: pix lvl 3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 875
-        width: 124.625
-        height: 125
+        x: 2
+        y: 898
+        width: 91
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: pix lvl 3_1
       rect:
         serializedVersion: 2
-        x: 124
-        y: 875
-        width: 124.625
-        height: 125
+        x: 129
+        y: 898
+        width: 96
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: pix lvl 3_2
       rect:
         serializedVersion: 2
-        x: 248
-        y: 875
-        width: 124.625
-        height: 125
+        x: 254
+        y: 895
+        width: 99
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: pix lvl 3_3
       rect:
         serializedVersion: 2
-        x: 372
-        y: 875
-        width: 124.625
-        height: 125
+        x: 383
+        y: 892
+        width: 99
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: pix lvl 3_4
       rect:
         serializedVersion: 2
-        x: 496
-        y: 875
-        width: 124.625
-        height: 125
+        x: 512
+        y: 892
+        width: 99
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,10 +403,10 @@ TextureImporter:
       name: pix lvl 3_5
       rect:
         serializedVersion: 2
-        x: 620
-        y: 875
-        width: 124.625
-        height: 125
+        x: 641
+        y: 892
+        width: 99
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: pix lvl 3_6
       rect:
         serializedVersion: 2
-        x: 744
-        y: 875
-        width: 124.625
-        height: 125
+        x: 769
+        y: 892
+        width: 99
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +445,10 @@ TextureImporter:
       name: pix lvl 3_7
       rect:
         serializedVersion: 2
-        x: 868
-        y: 875
-        width: 124.625
-        height: 125
+        x: 901
+        y: 892
+        width: 94
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +466,10 @@ TextureImporter:
       name: pix lvl 3_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 750
-        width: 124.625
-        height: 125
+        x: 6
+        y: 760
+        width: 93
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,10 +487,10 @@ TextureImporter:
       name: pix lvl 3_9
       rect:
         serializedVersion: 2
-        x: 124
-        y: 750
-        width: 124.625
-        height: 125
+        x: 135
+        y: 760
+        width: 93
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +508,10 @@ TextureImporter:
       name: pix lvl 3_10
       rect:
         serializedVersion: 2
-        x: 248
-        y: 750
-        width: 124.625
-        height: 125
+        x: 260
+        y: 760
+        width: 93
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +529,10 @@ TextureImporter:
       name: pix lvl 3_11
       rect:
         serializedVersion: 2
-        x: 372
-        y: 750
-        width: 124.625
-        height: 125
+        x: 389
+        y: 763
+        width: 93
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,10 +550,10 @@ TextureImporter:
       name: pix lvl 3_12
       rect:
         serializedVersion: 2
-        x: 496
-        y: 750
-        width: 124.625
-        height: 125
+        x: 518
+        y: 766
+        width: 90
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,10 +571,10 @@ TextureImporter:
       name: pix lvl 3_13
       rect:
         serializedVersion: 2
-        x: 620
-        y: 750
-        width: 124.625
-        height: 125
+        x: 644
+        y: 772
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,10 +592,10 @@ TextureImporter:
       name: pix lvl 3_14
       rect:
         serializedVersion: 2
-        x: 744
-        y: 750
-        width: 124.625
-        height: 125
+        x: 772
+        y: 775
+        width: 90
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: pix lvl 3_15
       rect:
         serializedVersion: 2
-        x: 868
-        y: 750
-        width: 124.625
-        height: 125
+        x: 901
+        y: 775
+        width: 89
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: pix lvl 3_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 625
-        width: 124.625
-        height: 125
+        x: 3
+        y: 644
+        width: 93
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,10 +655,10 @@ TextureImporter:
       name: pix lvl 3_17
       rect:
         serializedVersion: 2
-        x: 124
-        y: 625
-        width: 124.625
-        height: 125
+        x: 129
+        y: 641
+        width: 96
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,10 +676,10 @@ TextureImporter:
       name: pix lvl 3_18
       rect:
         serializedVersion: 2
-        x: 248
-        y: 625
-        width: 124.625
-        height: 125
+        x: 254
+        y: 641
+        width: 99
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,10 +697,10 @@ TextureImporter:
       name: pix lvl 3_19
       rect:
         serializedVersion: 2
-        x: 372
-        y: 625
-        width: 124.625
-        height: 125
+        x: 383
+        y: 638
+        width: 99
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -718,10 +718,10 @@ TextureImporter:
       name: pix lvl 3_20
       rect:
         serializedVersion: 2
-        x: 496
-        y: 625
-        width: 124.625
-        height: 125
+        x: 512
+        y: 638
+        width: 99
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -739,10 +739,10 @@ TextureImporter:
       name: pix lvl 3_21
       rect:
         serializedVersion: 2
-        x: 620
-        y: 625
-        width: 124.625
-        height: 125
+        x: 641
+        y: 641
+        width: 99
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,10 +760,10 @@ TextureImporter:
       name: pix lvl 3_22
       rect:
         serializedVersion: 2
-        x: 744
-        y: 625
-        width: 124.625
-        height: 125
+        x: 772
+        y: 641
+        width: 93
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -781,10 +781,10 @@ TextureImporter:
       name: pix lvl 3_23
       rect:
         serializedVersion: 2
-        x: 868
-        y: 625
-        width: 124.625
-        height: 125
+        x: 901
+        y: 641
+        width: 92
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -802,10 +802,10 @@ TextureImporter:
       name: pix lvl 3_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 500
-        width: 124.625
-        height: 125
+        x: 9
+        y: 515
+        width: 90
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -823,10 +823,10 @@ TextureImporter:
       name: pix lvl 3_25
       rect:
         serializedVersion: 2
-        x: 124
-        y: 500
-        width: 124.625
-        height: 125
+        x: 135
+        y: 512
+        width: 93
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +844,10 @@ TextureImporter:
       name: pix lvl 3_26
       rect:
         serializedVersion: 2
-        x: 248
-        y: 500
-        width: 124.625
-        height: 125
+        x: 260
+        y: 512
+        width: 96
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -865,10 +865,10 @@ TextureImporter:
       name: pix lvl 3_27
       rect:
         serializedVersion: 2
-        x: 372
-        y: 500
-        width: 124.625
-        height: 125
+        x: 386
+        y: 515
+        width: 99
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,10 +886,10 @@ TextureImporter:
       name: pix lvl 3_28
       rect:
         serializedVersion: 2
-        x: 496
-        y: 500
-        width: 124.625
-        height: 125
+        x: 515
+        y: 515
+        width: 96
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,10 +907,10 @@ TextureImporter:
       name: pix lvl 3_29
       rect:
         serializedVersion: 2
-        x: 620
-        y: 500
-        width: 124.625
-        height: 125
+        x: 641
+        y: 518
+        width: 96
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,10 +928,10 @@ TextureImporter:
       name: pix lvl 3_30
       rect:
         serializedVersion: 2
-        x: 744
-        y: 500
-        width: 124.625
-        height: 125
+        x: 769
+        y: 518
+        width: 93
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -949,10 +949,10 @@ TextureImporter:
       name: pix lvl 3_31
       rect:
         serializedVersion: 2
-        x: 868
-        y: 500
-        width: 124.625
-        height: 125
+        x: 898
+        y: 515
+        width: 91
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -970,10 +970,10 @@ TextureImporter:
       name: pix lvl 3_32
       rect:
         serializedVersion: 2
-        x: 0
-        y: 375
-        width: 124.625
-        height: 125
+        x: 6
+        y: 383
+        width: 84
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -991,10 +991,10 @@ TextureImporter:
       name: pix lvl 3_33
       rect:
         serializedVersion: 2
-        x: 124
-        y: 375
-        width: 124.625
-        height: 125
+        x: 135
+        y: 383
+        width: 84
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1012,10 +1012,10 @@ TextureImporter:
       name: pix lvl 3_34
       rect:
         serializedVersion: 2
-        x: 248
-        y: 375
-        width: 124.625
-        height: 125
+        x: 260
+        y: 383
+        width: 90
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1033,10 +1033,10 @@ TextureImporter:
       name: pix lvl 3_35
       rect:
         serializedVersion: 2
-        x: 372
-        y: 375
-        width: 124.625
-        height: 125
+        x: 389
+        y: 383
+        width: 90
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1054,10 +1054,10 @@ TextureImporter:
       name: pix lvl 3_36
       rect:
         serializedVersion: 2
-        x: 496
-        y: 375
-        width: 124.625
-        height: 125
+        x: 518
+        y: 380
+        width: 90
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,10 +1075,10 @@ TextureImporter:
       name: pix lvl 3_37
       rect:
         serializedVersion: 2
-        x: 620
-        y: 375
-        width: 124.625
-        height: 125
+        x: 647
+        y: 377
+        width: 90
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1096,10 +1096,10 @@ TextureImporter:
       name: pix lvl 3_38
       rect:
         serializedVersion: 2
-        x: 744
-        y: 375
-        width: 124.625
-        height: 125
+        x: 775
+        y: 377
+        width: 90
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1117,10 +1117,10 @@ TextureImporter:
       name: pix lvl 3_39
       rect:
         serializedVersion: 2
-        x: 868
-        y: 375
-        width: 124.625
-        height: 125
+        x: 904
+        y: 380
+        width: 92
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1138,10 +1138,10 @@ TextureImporter:
       name: pix lvl 3_40
       rect:
         serializedVersion: 2
-        x: 0
-        y: 250
-        width: 124.625
-        height: 125
+        x: 9
+        y: 254
+        width: 90
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1159,10 +1159,10 @@ TextureImporter:
       name: pix lvl 3_41
       rect:
         serializedVersion: 2
-        x: 124
-        y: 250
-        width: 124.625
-        height: 125
+        x: 138
+        y: 254
+        width: 90
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1180,10 +1180,10 @@ TextureImporter:
       name: pix lvl 3_42
       rect:
         serializedVersion: 2
-        x: 248
-        y: 250
-        width: 124.625
-        height: 125
+        x: 266
+        y: 251
+        width: 87
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1201,10 +1201,10 @@ TextureImporter:
       name: pix lvl 3_43
       rect:
         serializedVersion: 2
-        x: 372
-        y: 250
-        width: 124.625
-        height: 125
+        x: 392
+        y: 251
+        width: 87
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1222,10 +1222,10 @@ TextureImporter:
       name: pix lvl 3_44
       rect:
         serializedVersion: 2
-        x: 496
-        y: 250
-        width: 124.625
-        height: 125
+        x: 521
+        y: 251
+        width: 87
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1243,10 +1243,10 @@ TextureImporter:
       name: pix lvl 3_45
       rect:
         serializedVersion: 2
-        x: 620
-        y: 250
-        width: 124.625
-        height: 125
+        x: 650
+        y: 251
+        width: 84
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1264,10 +1264,10 @@ TextureImporter:
       name: pix lvl 3_46
       rect:
         serializedVersion: 2
-        x: 744
-        y: 250
-        width: 124.625
-        height: 125
+        x: 775
+        y: 251
+        width: 84
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1285,10 +1285,10 @@ TextureImporter:
       name: pix lvl 3_47
       rect:
         serializedVersion: 2
-        x: 868
-        y: 250
-        width: 124.625
-        height: 125
+        x: 904
+        y: 254
+        width: 87
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1306,10 +1306,10 @@ TextureImporter:
       name: pix lvl 3_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 125
-        width: 124.625
-        height: 125
+        x: 9
+        y: 126
+        width: 90
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1327,10 +1327,10 @@ TextureImporter:
       name: pix lvl 3_49
       rect:
         serializedVersion: 2
-        x: 124
-        y: 125
-        width: 124.625
-        height: 125
+        x: 135
+        y: 129
+        width: 93
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1348,10 +1348,10 @@ TextureImporter:
       name: pix lvl 3_50
       rect:
         serializedVersion: 2
-        x: 248
-        y: 125
-        width: 124.625
-        height: 125
+        x: 260
+        y: 129
+        width: 99
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1369,10 +1369,10 @@ TextureImporter:
       name: pix lvl 3_51
       rect:
         serializedVersion: 2
-        x: 372
-        y: 125
-        width: 124.625
-        height: 125
+        x: 389
+        y: 129
+        width: 99
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1390,10 +1390,10 @@ TextureImporter:
       name: pix lvl 3_52
       rect:
         serializedVersion: 2
-        x: 496
-        y: 125
-        width: 124.625
-        height: 125
+        x: 515
+        y: 132
+        width: 102
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1411,10 +1411,10 @@ TextureImporter:
       name: pix lvl 3_53
       rect:
         serializedVersion: 2
-        x: 620
-        y: 125
-        width: 124.625
-        height: 125
+        x: 641
+        y: 132
+        width: 105
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1432,10 +1432,10 @@ TextureImporter:
       name: pix lvl 3_54
       rect:
         serializedVersion: 2
-        x: 744
-        y: 125
-        width: 124.625
-        height: 125
+        x: 769
+        y: 135
+        width: 102
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1453,10 +1453,10 @@ TextureImporter:
       name: pix lvl 3_55
       rect:
         serializedVersion: 2
-        x: 868
-        y: 125
-        width: 124.625
-        height: 125
+        x: 895
+        y: 132
+        width: 102
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1474,10 +1474,10 @@ TextureImporter:
       name: pix lvl 3_56
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 124.625
-        height: 125
+        x: 1
+        y: 1
+        width: 101
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1495,10 +1495,10 @@ TextureImporter:
       name: pix lvl 3_57
       rect:
         serializedVersion: 2
-        x: 124
+        x: 129
         y: 0
-        width: 124.625
-        height: 125
+        width: 99
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1516,10 +1516,10 @@ TextureImporter:
       name: pix lvl 3_58
       rect:
         serializedVersion: 2
-        x: 248
-        y: 0
-        width: 124.625
-        height: 125
+        x: 260
+        y: 1
+        width: 93
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1537,10 +1537,10 @@ TextureImporter:
       name: pix lvl 3_59
       rect:
         serializedVersion: 2
-        x: 372
-        y: 0
-        width: 124.625
-        height: 125
+        x: 386
+        y: 2
+        width: 93
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1558,10 +1558,10 @@ TextureImporter:
       name: pix lvl 3_60
       rect:
         serializedVersion: 2
-        x: 496
-        y: 0
-        width: 124.625
-        height: 125
+        x: 515
+        y: 4
+        width: 93
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1579,10 +1579,10 @@ TextureImporter:
       name: pix lvl 3_61
       rect:
         serializedVersion: 2
-        x: 620
-        y: 0
-        width: 124.625
-        height: 125
+        x: 644
+        y: 5
+        width: 90
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1600,10 +1600,10 @@ TextureImporter:
       name: pix lvl 3_62
       rect:
         serializedVersion: 2
-        x: 744
-        y: 0
-        width: 124.625
-        height: 125
+        x: 772
+        y: 3
+        width: 87
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1621,10 +1621,10 @@ TextureImporter:
       name: pix lvl 3_63
       rect:
         serializedVersion: 2
-        x: 868
-        y: 0
-        width: 124.625
-        height: 125
+        x: 901
+        y: 1
+        width: 85
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

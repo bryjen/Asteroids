@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7393384370442165720}
   - component: {fileID: 7393384370442165727}
+  - component: {fileID: 1622632907136261863}
   - component: {fileID: 7393384370442165726}
   - component: {fileID: 7393384370442165725}
   - component: {fileID: -7276487616524183766}
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5195927091231012860, guid: 023c5d8a9f499a142b85208c0485627c, type: 3}
+  m_Sprite: {fileID: 1546739886050374921, guid: 98e722aaac7c92249965c20fd560ddf4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85,8 +86,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7393384370442165726
-BoxCollider2D:
+--- !u!58 &1622632907136261863
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -98,11 +99,27 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.0666667
+--- !u!61 &7393384370442165726
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7393384370442165724}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
   m_Offset: {x: -0.004015684, y: 0.020078182}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.0666666, y: 2.1333334}
+    oldSize: {x: 2.1333334, y: 2.0666666}
     newSize: {x: 2.4, y: 2.275}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -128,6 +145,7 @@ MonoBehaviour:
   - {fileID: 5797424089067697047, guid: 98e722aaac7c92249965c20fd560ddf4, type: 3}
   - {fileID: -4518209491438811516, guid: 98e722aaac7c92249965c20fd560ddf4, type: 3}
   - {fileID: 3144289936448201483, guid: 98e722aaac7c92249965c20fd560ddf4, type: 3}
+  size: 0
 --- !u!50 &-7276487616524183766
 Rigidbody2D:
   serializedVersion: 4

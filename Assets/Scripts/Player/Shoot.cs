@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -16,6 +17,19 @@ public class Shoot : MonoBehaviour
         playerInput = new PlayerInput();
         playerInput.BasicMovement.Enable();
         playerInput.BasicMovement.Shoot.performed += SpawnProjectile;
+    }
+    
+    private void OnEnable()
+    {
+        if (playerInput == null)
+            return;
+        
+        playerInput.BasicMovement.Enable();
+    }
+
+    private void OnDisable()
+    {
+        playerInput.BasicMovement.Disable();
     }
 
     #endregion
