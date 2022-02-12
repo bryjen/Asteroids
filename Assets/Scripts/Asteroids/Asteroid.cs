@@ -30,8 +30,7 @@ public class Asteroid : MonoBehaviour
                 Destroy(gameObject);
                 return;
             }
-                
-            
+
             int numberOfSmallerAsteroids = 
                 (size / 3.5 > MIN_SIZE) ? 3 : 2;
     
@@ -75,7 +74,8 @@ public class Asteroid : MonoBehaviour
     
             SetRandomSprite();
             AdjustSize();
-            
+
+            _rigidbody2D.mass = size / BASE_SIZE * 1.55f;
             _rigidbody2D.angularVelocity = Random.Range(-55, 55);
         }
     

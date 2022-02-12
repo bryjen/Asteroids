@@ -17,7 +17,8 @@ public class AsteroidSpawnController : MonoBehaviour
     {
         if (!this.gameObject.TryGetComponent<AsteroidSpawner>(out asteroidSpawner))
             Debug.LogError("Both the AsteroidSpawnController and the AsteroidSpawner scripts must be on the same gameobject");
-
+        
+        //Spawn();
         InvokeRepeating(nameof(Spawn), this.spawnRate, this.spawnRate);
     }
 

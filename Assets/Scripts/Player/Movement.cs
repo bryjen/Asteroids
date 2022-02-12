@@ -13,14 +13,12 @@ public class Movement : MonoBehaviour
     [SerializeField] private float thrustSpeed;
     [SerializeField, Tooltip("0-1"), Range(0, 1)] private float turnSpeed;
 
-    [Header("Death Options")] 
-    [SerializeField] private GameObject explosionPrefab;
-    [SerializeField] private float respawnTimer;
+    private PlayerDeathHandler playerDeathHandler;
     
 
     void Start()
     {
-        
+        playerDeathHandler = gameObject.GetComponent<PlayerDeathHandler>();
     }
 
     private void FixedUpdate()
@@ -44,21 +42,8 @@ public class Movement : MonoBehaviour
     {
         if (other.gameObject.layer != 10)
             return;
-
-        var explosion = Instantiate(explosionPrefab, transform.position, transform.rotation);
-        explosion
-            .transform.GetChild(0).gameObject
-            .GetComponent<Animator>()
-            .Play("explode");
-        explosion
-            .transform.localScale = new Vector3(5, 5, 1);
-        Destroy(explosion, 1);
         
-        transform.position = Vector3.zero;
-        transform.rotation = Quaternion.identity;
-        _rigidbody.velocity = Vector2.zero;
-        _rigidbody.angularVelocity = 0;
-        _collider.enabled = false;
-        transform.GetChild(0).gameObject.SetActive(false);
+        playerDeathHandler.PlayExplosion(5);
+        playerDeathHandler.ExecuteRespawnSequence();
     }
 }
