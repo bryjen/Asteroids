@@ -8,6 +8,7 @@ using Random = UnityEngine.Random;
 public class Asteroid : MonoBehaviour
 {
     [SerializeField] protected Sprite[] asteroidSprites;
+    [SerializeField] protected GameObject[] explosionPrefabs;
 
     private const float BASE_SIZE = 8f;
     private const float MIN_SIZE = 3f;
@@ -24,6 +25,7 @@ public class Asteroid : MonoBehaviour
                 return;
             
             Destroy(other.gameObject);
+            PlayExplosion();
 
             if (size / 2 < MIN_SIZE)
             {
@@ -40,6 +42,19 @@ public class Asteroid : MonoBehaviour
                         Random.Range(2.5f, 3.3f): Random.Range(1.5f, 2f));
             
             Destroy(gameObject);
+        }
+
+        private void PlayExplosion()
+        {
+            var particleSystem = Instantiate(explosionPrefabs[Random.Range(0, explosionPrefabs.Length - 1)],
+                    transform.position,
+                    Quaternion.identity)
+                .GetComponent<ParticleSystem>();
+            
+            particleSystem.transform.localScale *= size / BASE_SIZE * 2;
+            
+            particleSystem.Play();
+            Destroy(particleSystem.gameObject, 1);
         }
     
         private void Split(float size, float shrinkFactor)

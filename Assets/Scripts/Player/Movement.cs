@@ -13,8 +13,9 @@ public class Movement : MonoBehaviour
     [SerializeField] private float thrustSpeed;
     [SerializeField, Tooltip("0-1"), Range(0, 1)] private float turnSpeed;
 
-    private PlayerDeathHandler playerDeathHandler;
+    [HideInInspector] public bool isInvulnerablele;
     
+    private PlayerDeathHandler playerDeathHandler;
 
     void Start()
     {
@@ -38,9 +39,12 @@ public class Movement : MonoBehaviour
             _rigidbody.AddTorque(-turnSpeed);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnCollisionStay2D(Collision2D other)
     {
         if (other.gameObject.layer != 10)
+            return;
+        
+        if (isInvulnerablele)
             return;
         
         playerDeathHandler.PlayExplosion(5);

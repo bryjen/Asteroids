@@ -145,6 +145,8 @@ MonoBehaviour:
   - {fileID: 5797424089067697047, guid: 98e722aaac7c92249965c20fd560ddf4, type: 3}
   - {fileID: -4518209491438811516, guid: 98e722aaac7c92249965c20fd560ddf4, type: 3}
   - {fileID: 3144289936448201483, guid: 98e722aaac7c92249965c20fd560ddf4, type: 3}
+  explosionPrefabs:
+  - {fileID: 5089273055951360944, guid: 2632541632396364b92d36cd6f79170c, type: 3}
   size: 0
 --- !u!50 &-7276487616524183766
 Rigidbody2D:

@@ -41,12 +41,12 @@ public class PlayerDeathHandler : MonoBehaviour
         await Task.Delay(TimeSpan.FromSeconds(1f));
         DisplayText();
         
+        AsteroidSpawnController.Instance.StartSpawning();
         await Task.Delay(TimeSpan.FromSeconds(2f));
         await FadeAllDeathUI();
         
         await Task.Delay(TimeSpan.FromSeconds(2f));
         await RespawnPlayer();
-        AsteroidSpawnController.Instance.StartSpawning();
     }
     
     public void PlayExplosion(float scaleMultiplier)
@@ -89,19 +89,25 @@ public class PlayerDeathHandler : MonoBehaviour
     {
         GetComponent<Rigidbody2D>().WakeUp();
         GetComponent<PolygonCollider2D>().enabled = true;
-        GetComponent<Movement>().enabled = true;
         GetComponent<Shoot>().enabled = true;
-        
+
+        var playerMovement = GetComponent<Movement>();
+        playerMovement.enabled = true;
+        playerMovement.isInvulnerablele = true;
+
         var playerSpriteRenderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
         playerSpriteRenderer.enabled = true;
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 7; i++)
         {
-            playerSpriteRenderer.color = new Color(1, 1, 1, 0);
-            await Task.Delay(TimeSpan.FromSeconds(.35f));
             playerSpriteRenderer.color = new Color(1, 1, 1, 1);
-            await Task.Delay(TimeSpan.FromSeconds(.35f));
+            await Task.Delay(TimeSpan.FromSeconds(.25f));
+            playerSpriteRenderer.color = new Color(1, 1, 1, .25f);
+            await Task.Delay(TimeSpan.FromSeconds(.25f));
         }
+        
+        playerSpriteRenderer.color = new Color(1, 1, 1, 1);
+        playerMovement.isInvulnerablele = false;
     }
     
     
