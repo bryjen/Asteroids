@@ -41,7 +41,9 @@ public class PlayerDeathHandler : MonoBehaviour
         await Task.Delay(TimeSpan.FromSeconds(1f));
         DisplayText();
         
-        AsteroidSpawnController.Instance.StartSpawning();
+        if (AsteroidSpawnController.Instance != null)
+            AsteroidSpawnController.Instance.StartSpawning();
+        
         await Task.Delay(TimeSpan.FromSeconds(2f));
         await FadeAllDeathUI();
         
@@ -69,7 +71,7 @@ public class PlayerDeathHandler : MonoBehaviour
 
             asteroidScript.gameObject.AddComponent<ConstantForce2D>()
                 .force = asteroidScript.gameObject.transform.position.normalized * 2.25f;
-            Destroy(asteroidScript.gameObject, 6);
+            Destroy(asteroidScript.gameObject, 10);
         }
     }
 
@@ -87,6 +89,8 @@ public class PlayerDeathHandler : MonoBehaviour
 
     private async Task RespawnPlayer()
     {
+        
+        
         GetComponent<Rigidbody2D>().WakeUp();
         GetComponent<PolygonCollider2D>().enabled = true;
         GetComponent<Shoot>().enabled = true;
@@ -116,6 +120,8 @@ public class PlayerDeathHandler : MonoBehaviour
 
         private async Task DisplayHearts()
         {
+            if (!Application.isPlaying) Application.Quit();
+            
             foreach (var heart in hearts)
             {
                 if (!heart.activeSelf)

@@ -11,6 +11,10 @@ using Random = UnityEngine.Random;
  */
 public class AsteroidSpawner : MonoBehaviour
 {
+    [Header("Spawn Configurations")] 
+    [SerializeField] private float spawnDistanceFromCenter;
+    [SerializeField] private float angleVarianceMultiplier;
+
     [SerializeField] private GameObject asteroidPrefab;
     private GameObject placeholderGameObject;
 
@@ -21,7 +25,7 @@ public class AsteroidSpawner : MonoBehaviour
 
     public void SpawnDefaultAsteroid()
     {
-        Vector3 spawnRadius = Random.insideUnitCircle.normalized * 15;
+        Vector3 spawnRadius = Random.insideUnitCircle.normalized * spawnDistanceFromCenter;
         Vector3 spawnpoint = spawnRadius + transform.position;
         Quaternion rotation = Quaternion.Euler(0, 0, Random.Range(0f, 180f));
 
@@ -33,9 +37,10 @@ public class AsteroidSpawner : MonoBehaviour
             Debug.LogError("ASTEROID PREFAB DOES NOT HAVE Asteroid.cs SCRIPT!");  
         
         //initialize the asteroid's size, direction and velocity
-        var variance = Random.Range(-15, 15);
+        var variance = Random.Range(-15, 15) * angleVarianceMultiplier;
         Quaternion directionRotation = Quaternion.AngleAxis(variance, Vector3.forward);
         
-        asteroidScript.Initialize( (directionRotation * -spawnRadius).normalized * Random.Range(1.5f, 2f));
+        asteroidScript.Initialize( 
+            (directionRotation * -spawnRadius).normalized * Random.Range(1.5f, 3f));
     }
 }
